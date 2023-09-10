@@ -18,6 +18,7 @@
 
 ## What's working
 
+- [x] OpenCore GUI Picker
 - [x] dGPU
 - [x] Restart / Shutdown
 - [x] Sleep / Wake
