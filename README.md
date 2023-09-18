@@ -26,6 +26,31 @@
 - [x] USB
 - [x] macOS & Windows 11
 
+## BIOS Settings
+
+MSI B760M MORTAR MAX WIFI D5 ver E7E01IMS.H40 build 07/12/2023
+
+SETTINGS - Advanced:
+ - PCIe/PCI Sub-system Settings - Re-size BAR Support: Disabled
+ - Integrated Peripherals - External SATA Controller Mode: AHCI Mode
+ - Integrated Graphics Configuration
+   - Initiate Graphic Adapter: PEG
+   - IGD Multi-Monitor: Enabled
+- USB Configuration - XHCI Hand-off: Enabled
+- BIOS CSM/UEFI Mode: UEFI
+
+SETTINGS - Boot:
+- MSI Fast Boot: Disabled
+- Fast Boot: Disabled
+
+SETTINGS - Security - Secure Boot - Secure Boot: Disabled
+
+OC - CPU Features:
+- Intel Virtualization Tech (VT-x): Enabled
+- Intel VT-D Tech: Disabled
+- CFG Lock: Disabled
+
+
 ## Kexts
 
 | Name                                                         | Version       |      |
