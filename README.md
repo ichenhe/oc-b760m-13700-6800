@@ -13,8 +13,9 @@
 
 ## Software
 
-- **OS:** Mac OS Ventura 13.5.2
-- **Bootloader:** OpenCore 0.9.5
+- **OS:** macOS Ventura 13.6.5
+- **Bootloader:** OpenCore 0.9.9
+- ❌ Not tested on macOS 14 
 
 ## What's working
 
@@ -59,15 +60,15 @@ OC - CPU Features:
 | [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)<br />SMCProcessor<br />SMCSuperIO | 1.3.2         |      |
 | [SMCRadeonGPU<br />RadeonSensor](https://github.com/NootInc/RadeonSensor/releases) | 1.3.0         |      |
 | [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) | 1.6.6         |      |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.5         |      |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.9         |      |
 | [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/) | 1.1.0         |      |
 | [USBToolBox](https://github.com/USBToolBox/kext)             | 1.1.1         |      |
 | [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM/releases) | 2.6.8         |      |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.2.0 Ventura |      |
-| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)<br />IntelBTPatcher | 2.3.0         |      |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)<br />IntelBTPatcher | 2.4.0         |      |
 | [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)   | 1.1.1         |      |
 | [CPUTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild) | 1.1.0         |      |
-| [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | 1.1.2         |      |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | 1.1.3         |      |
 
 ## Config
 
