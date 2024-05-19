@@ -14,7 +14,7 @@
 ## Software
 
 - **OS:** macOS Ventura 13.6.5
-- **Bootloader:** OpenCore 0.9.9
+- **Bootloader:** OpenCore 1.0.0
 - ❌ Not tested on macOS 14 
 
 ## What's working
@@ -58,9 +58,9 @@ OC - CPU Features:
 | ------------------------------------------------------------ | ------------- | ---- |
 | [Lilu](https://github.com/acidanthera/Lilu/releases)         | 1.6.7         |      |
 | [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)<br />SMCProcessor<br />SMCSuperIO | 1.3.2         |      |
-| [SMCRadeonGPU<br />RadeonSensor](https://github.com/NootInc/RadeonSensor/releases) | 1.3.0         |      |
+| [SMCRadeonSensors](https://github.com/NootInc/RadeonSensor/releases) | 2.0.0         |      |
 | [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) | 1.6.6         |      |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.8.9         |      |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.9.0         |      |
 | [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/) | 1.1.0         |      |
 | [USBToolBox](https://github.com/USBToolBox/kext)             | 1.1.1         |      |
 | [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM/releases) | 2.6.8         |      |
