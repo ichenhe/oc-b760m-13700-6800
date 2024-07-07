@@ -13,9 +13,9 @@
 
 ## Software
 
-- **OS:** macOS Ventura 13.6.5
+- **OS:** macOS Ventura 14.5
 - **Bootloader:** OpenCore 1.0.0
-- ❌ Not tested on macOS 14 
+- If you are using macOS 13 or 14.0~14.3, [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) must be replaced with a appropriate version.
 
 ## What's working
 
