@@ -6,15 +6,15 @@
   - Ethernet: Realtek 2.5Gbps
   - Audio Codec: Realtek ALC897 Codec
   - Wireless (Bluetooth): Intel Wi-Fi 6E
-- **CPU:** Intel Core i7 13700 (iGPU not working)
+- **CPU:** Intel Core i7 13700 (iGPU not working) Raptor Lake
 - **dGPU:** AMD RX 6800
 - **Storage:** WD_BLACK SN850X 2000GB
 - **RAM:** Gloway DDR5 6400 16GB*2
 
 ## Software
 
-- **OS:** macOS Ventura 14.5
-- **Bootloader:** OpenCore 1.0.0
+- **OS:** macOS Sonoma 14.5
+- **Bootloader:** OpenCore 1.0.6
 - If you are using macOS 13 or 14.0~14.3, [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) must be replaced with a appropriate version.
 
 ## What's working
@@ -54,21 +54,21 @@ OC - CPU Features:
 
 ## Kexts
 
-| Name                                                         | Version       |      |
-| ------------------------------------------------------------ | ------------- | ---- |
-| [Lilu](https://github.com/acidanthera/Lilu/releases)         | 1.6.7         |      |
-| [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)<br />SMCProcessor<br />SMCSuperIO | 1.3.2         |      |
-| [SMCRadeonSensors](https://github.com/NootInc/RadeonSensor/releases) | 2.0.0         |      |
-| [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) | 1.6.6         |      |
-| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.9.0         |      |
-| [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/) | 1.1.0         |      |
-| [USBToolBox](https://github.com/USBToolBox/kext)             | 1.1.1         |      |
-| [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM/releases) | 2.6.8         |      |
-| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.2.0 Ventura |      |
-| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)<br />IntelBTPatcher | 2.4.0         |      |
-| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)   | 1.1.1         |      |
-| [CPUTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild) | 1.1.0         |      |
-| [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | 1.1.3         |      |
+| Name                                                         | Version          |      |
+| ------------------------------------------------------------ | ---------------- | ---- |
+| [Lilu](https://github.com/acidanthera/Lilu/releases)         | 1.7.1            |      |
+| [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)<br />SMCProcessor<br />SMCSuperIO | 1.3.7            |      |
+| [SMCRadeonSensors](https://github.com/NootInc/RadeonSensor/releases) | 2.4.0            |      |
+| [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) | 1.7.0            |      |
+| [AppleALC](https://github.com/acidanthera/AppleALC/releases) | 1.9.6            |      |
+| [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/) | 1.2.2            |      |
+| [USBToolBox](https://github.com/USBToolBox/kext)             | 1.2.0            |      |
+| [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM/releases) | 2.7.1            |      |
+| [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) | 2.3.0 Sonoma14.4 |      |
+| [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)<br />IntelBTPatcher | 2.4.0            |      |
+| [NVMeFix](https://github.com/acidanthera/NVMeFix/releases)   | 1.1.3            |      |
+| [CPUTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild) | 2.0.2            |      |
+| [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | 1.1.6            |      |
 
 ## Config
 
